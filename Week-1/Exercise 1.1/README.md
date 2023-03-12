@@ -8,9 +8,9 @@ Whenever you click on a link or enter a URL, the browser sends and receives info
 
 It involves a multi-step process including DNS resolution, HTTP exchange between browser and web server, rendering, and so on, as follows:
 
-<!-- ![Working](https://github.com/suriyaprakash666/p10-utkarsh-suriyaprakash666/blob/master/Week-1/Exercise%201.1/images/browserworks.png
-) -->
-![](./images/browserworks.png)
+![Working](https://github.com/suriyaprakash666/p10-utkarsh-suriyaprakash666/blob/master/Week-1/Exercise%201.1/Screenshots/BrowserWorking.png
+)
+<!-- ![](./images/browserworks.png) -->
 
 - You enter a URL in the web browser.
 - The browser finds the IP address for the domain using DNS.
@@ -30,9 +30,9 @@ Below are the commonly used jargons that you might've read above or come across 
 - **DNS** – DNS or Domain Name System is the database that contains records of the domains. It helps discover websites using human-readable addresses.
 - **Cookies** – Cookies are the small pieces of data websites store on your device's storage.
 
-<!-- ![process](https://github.com/suriyaprakash666/p10-utkarsh-suriyaprakash666/blob/master/Week-1/Exercise%201.1/images/process.png) -->
+![process](https://github.com/suriyaprakash666/p10-utkarsh-suriyaprakash666/blob/master/Week-1/Exercise%201.1/Screenshots/Process.png)
 
-![](./images/process.png)
+<!-- ![](./images/process.png) -->
 
 ### **a) What is the main functionality of the browser?**
 
@@ -56,9 +56,9 @@ Overall, the main goal of a browser is to provide a user-friendly interface for 
 
 ### **b) High-level Components of a Browser?**
 
-<!-- ![Components](https://github.com/suriyaprakash666/p10-utkarsh-suriyaprakash666/blob/master/Week-1/Exercise%201.1/images/webComponents.png) -->
+![Components](https://github.com/suriyaprakash666/p10-utkarsh-suriyaprakash666/blob/master/Week-1/Exercise%201.1/Screenshots/WebComponents.png)
 
-![](./images/webComponents.png)
+<!-- ![](./images/webComponents.png) -->
 
 **User Interface (UI):** The user interface of a browser includes the elements that allow users to interact with the browser, such as the address bar, bookmarks, back and forward buttons, and various menus and settings.
 
@@ -76,9 +76,9 @@ Overall, the main goal of a browser is to provide a user-friendly interface for 
 
 ### **c) Rendering engine and its use**
 
-<!-- ![render](https://github.com/suriyaprakash666/p10-utkarsh-suriyaprakash666/blob/master/Week-1/Exercise%201.1/images/rendering.png) -->
+![render](https://github.com/suriyaprakash666/p10-utkarsh-suriyaprakash666/blob/master/Week-1/Exercise%201.1/images/Rendering.png)
 
-![](./images/rendering.png)
+<!-- ![](./images/rendering.png) -->
 
 Parsing and interpreting HTML and CSS code to generate the Document Object Model (DOM) and the CSS Object Model (CSSOM), respectively.
 
@@ -92,10 +92,10 @@ Painting the final image of the web page on the screen, including applying any a
 
 Parsers are software components that are responsible for analyzing and interpreting code written in specific markup or programming languages. In the context of web development, there are several different parsers that are commonly used, including HTML parsers, CSS parsers, and JavaScript parsers.
 
-<!-- ![parser](
-https://github.com/suriyaprakash666/p10-utkarsh-suriyaprakash666/blob/master/Week-1/Exercise%201.1/images/parser.png) -->
+![parser](
+https://github.com/suriyaprakash666/p10-utkarsh-suriyaprakash666/blob/master/Week-1/Exercise%201.1/images/Parser.png)
 
-![](./images/parser.png)
+<!-- ![](./images/parser.png) -->
 
 **HTML Parser:**
 
