@@ -31,7 +31,7 @@ Below are the commonly used jargons that you might've read above or come across 
 
 ![process](https://github.com/suriyaprakash666/p10-utkarsh-suriyaprakash666/blob/master/Week-1/Exercise%201.1/images/process.png)
 
-**a) What is the main functionality of the browser?**
+### **a) What is the main functionality of the browser?**
 
 The main functionality of a browser is to allow users to access and view content on the World Wide Web. Browsers accomplish this by retrieving and displaying web pages, which are written in HTML, and the associated resources such as images, videos, and stylesheets.
 
@@ -51,7 +51,7 @@ Additionally, browsers provide a range of other features, such as
 
 Overall, the main goal of a browser is to provide a user-friendly interface for accessing and interacting with the vast array of information and resources available on the web.
 
-**b) High-level Components of a Browser?**
+### **b) High-level Components of a Browser?**
 
 ![Components](https://github.com/suriyaprakash666/p10-utkarsh-suriyaprakash666/blob/master/Week-1/Exercise%201.1/images/webComponents.png)
 
@@ -69,7 +69,7 @@ Overall, the main goal of a browser is to provide a user-friendly interface for 
 
 **Data Storage** : The browser needs to store data such as cookies, cache files, and browsing history. This data can be stored on the user's computer, or in some cases, in the cloud.
 
-**c) Rendering engine and its use**
+### **c) Rendering engine and its use**
 
 ![render](https://github.com/suriyaprakash666/p10-utkarsh-suriyaprakash666/blob/master/Week-1/Exercise%201.1/images/rendering.png)
 
@@ -81,7 +81,7 @@ Laying out the Render Tree to determine the size, position, and style of each el
 
 Painting the final image of the web page on the screen, including applying any animations or visual effects.
 
-**d) Parsers (HTML, CSS, etc)?**
+### **d) Parsers (HTML, CSS, etc)?**
 
 Parsers are software components that are responsible for analyzing and interpreting code written in specific markup or programming languages. In the context of web development, there are several different parsers that are commonly used, including HTML parsers, CSS parsers, and JavaScript parsers.
 
@@ -102,7 +102,7 @@ A JavaScript parser is a software component that is responsible for analyzing Ja
 
 Overall, parsers are critical components of the web development process, as they enable developers to create and manipulate web content using markup and programming languages.
 
-**e) Script Processors**
+### **e) Script Processors**
 
 Script processors are responsible for executing scripts embedded in web pages.
 
@@ -112,7 +112,7 @@ Some guidelines for script processors are:
 - Use the latest version of the script processor to ensure compatibility with the latest web standards.
 - Consider using a Content Security Policy (CSP) to control which scripts can run on your website, and prevent cross-site scripting attacks.
 
-**f) Tree Construction**
+### **f) Tree Construction**
 
 Tree construction is the process of converting HTML code into a DOM tree.
 
@@ -122,7 +122,7 @@ Some guidelines for tree construction are:
 - Avoid using deprecated HTML elements and attributes, as they may not be supported by modern browsers.
 - Use semantic HTML elements to make the tree structure more meaningful and accessible.
 
-**g) Order of Script Processing**
+### **g) Order of Script Processing**
 
 Scripts can affect the order in which page elements are displayed.
 
@@ -132,7 +132,7 @@ Some guidelines for the order of script processing are:
 - Use asynchronous script loading to prevent scripts from blocking the page rendering process.
 - Consider using defer attribute on script tags that don't need to be executed immediately, and only execute after the page has finished parsing.
 
-**h) Layout and Painting**
+### **h) Layout and Painting**
 
 Layout and painting are the processes of calculating the position and size of page elements and rendering them on the screen.
 
