@@ -1,0 +1,41 @@
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    transition: all 0.5s ease;
+}
+.square {
+    width: 100px;
+    height: 100px;
+    transform: rotate(0deg);
+    transition: all 0.5s ease;
+}
+.square:nth-child(1){
+    background-color: red;
+}
+.square:nth-child(2){
+    background-color: yellow;
+    margin-left: 100px;
+    margin-top: -100px;
+}
+.square:nth-child(3){
+    background-color: blue;
+}
+.square:nth-child(4){
+    background-color: green;
+    margin-left: 100px;
+    margin-top: -100px;
+}
+.main:hover .square:nth-child(1) {
+    transform: rotate(90deg);
+}
+.main:hover .square:nth-child(2) {
+    transform: rotate(90deg);
+}
+.main:hover .square:nth-child(3) {
+    transform: rotate(90deg);
+}
+.main:hover .square:nth-child(4) {
+    transform: rotate(90deg);
+}
