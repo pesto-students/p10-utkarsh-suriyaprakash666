@@ -6,7 +6,7 @@ function greet() {
   const person = {
     name: 'John'
   };
-
+  
 greet.call(person); // output: Hello, John!
   
   // Bind
@@ -19,11 +19,12 @@ greet.call(person); // output: Hello, John!
   greetHi(); // output: Hi, Jane!
 
   // Apply
-  
   function sum(a, b, c) {
     return a + b + c;
   }
 
-  const result = sum.apply(null, [1, 2, 3]);
+  const numbers = [1, 2, 3];
+  
+  const result = sum.apply(null, numbers);
   console.log(result); // output: 6
   

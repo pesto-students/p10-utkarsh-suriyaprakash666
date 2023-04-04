@@ -20,4 +20,4 @@ function createStack() {
   stack.print();
   stack.pop(); // => 5
   console.log(stack.items); // => undefined 
-
+  
