@@ -1,6 +1,6 @@
 function customPromise(mainCb) {
   this.thenArr = [];
-  this.status = "pending⌛";
+  this.status = "pending...⌛";
   this.catchArr = () => {};
   this.value = undefined;
 
@@ -30,16 +30,16 @@ function customPromise(mainCb) {
     try {
       this.thenArr.forEach((cb) => {
         cb(this.value);
-        this.status = "fulfilled👍";
+        this.status = "fulfilled...👍";
       });
     } catch (error) {
-      this.status = "rejected👎";
+      this.status = "rejected...👎";
       this.catchArr(this.value, error);
     }
   };
 
   this.handleReject = function (error) {
-    this.status = "rejected👎";
+    this.status = "rejected...👎";
     this.thenArr = [];
     this.catchArr(this.value, error);
   };
