@@ -37,22 +37,22 @@ class BST {
   }
 
   depth(temp = this.root) {
-    if (temp === null) return 0;
+    if (temp === null) return -1;
     let leftDepth = this.depth(temp.left);
     let rightDepth = this.depth(temp.right);
 
-    return Math.max(leftDepth, rightDepth);
+    return Math.max(leftDepth, rightDepth) + 1;
   }
 }
 
 const myTree = new BST();
-myTree.insert(47);
-myTree.insert(21);
-myTree.insert(76);
-myTree.insert(18);
-myTree.insert(27);
-myTree.insert(52);
-myTree.insert(82);
+myTree.insert(3);
+myTree.insert(9);
+myTree.insert(20);
+myTree.insert(null);
+myTree.insert(null);
+myTree.insert(15);
+myTree.insert(7);
 
 console.log(myTree);
 console.log(myTree.depth());
