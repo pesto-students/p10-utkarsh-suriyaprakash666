@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'lato';
+}
+p {
+  color:grey;
+}
+
+header {
+  background-color: rgb(255, 255, 255);
+  padding: 20px 0 30px 0;
+}
+header h1 {
+  margin: auto;
+  width: 400px;
+  text-align: center;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px 150px;
+  background-color: rgb(254, 254, 254);
+}
+section .left {
+  width: 50%;
+}
+
+section .left p {
+  width: 90%;
+  margin: 0px auto 60px auto;
+}
+
+section .left img {
+  display: block;
+  width: 19em;
+  margin: auto;
+}
+
+section .right {
+  width: 50%;
+}
+
+section .right > p {
+  width: 90%;
+  margin: 0px auto 60px auto;
+}
+
+section .right .artical-sec {
+  width: 90%;
+  margin: 0px auto 60px auto;
+}
+
+section .right .artical-sec h4 {
+  padding-bottom: 15px;
+}
+
+section .right .artical-sec h4 a {
+  color: black;
+}
+
+@media screen and (max-width: 700px) {
+  section {
+    flex-direction: column;
+  }
+  section .right {
+    width: 100%;
+  }
+  section .left {
+    width: 100%;
+    margin-bottom: 80px;
+  }
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  font-size: larger;
+  align-items: left;
+  padding-left: 10%;
+  background-color: rgb(255, 255, 255);
+}
+form .title {
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+  justify-content: left;
+  width: 50%;
+}
+
+form .inputs {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: left;
+  justify-content: left;
+}
+
+form .inputs label {
+  margin: 10px;
+}
+
+form .inputs input[type="submit"] {
+  padding: 5px 10px;
+  margin: 0px auto 10px 0px;
+  
+} 
